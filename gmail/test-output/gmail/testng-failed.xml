@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [gmail]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_001_AddToCart_C(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.TC_001_AddToCart">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="addToCart" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.automation.TC_001_AddToCart -->
+    </classes>
+  </test> <!-- TC_001_AddToCart_C(failed) -->
+</suite> <!-- Failed suite [gmail] -->

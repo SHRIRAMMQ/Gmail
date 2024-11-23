@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-23T08:12:54 IST" name="gmail" finished-at="2024-11-23T08:13:27 IST" duration-ms="32760">
+    <groups>
+    </groups>
+    <test started-at="2024-11-23T08:12:54 IST" name="TC_001_AddToCart_C" finished-at="2024-11-23T08:13:27 IST" duration-ms="32760">
+      <class name="com.automation.TC_001_AddToCart">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.automation.TC_001_AddToCart@3b0090a4]" started-at="2024-11-23T08:12:54 IST" name="openBrowser" finished-at="2024-11-23T08:13:02 IST" duration-ms="7555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="addToCart(java.lang.String,java.lang.String)[pri:0, instance:com.automation.TC_001_AddToCart@3b0090a4]" started-at="2024-11-23T08:13:02 IST" name="addToCart" data-provider="getTestData" finished-at="2024-11-23T08:13:11 IST" duration-ms="8855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="addToCart(java.lang.String,java.lang.String)[pri:0, instance:com.automation.TC_001_AddToCart@3b0090a4]" started-at="2024-11-23T08:13:11 IST" name="addToCart" data-provider="getTestData" finished-at="2024-11-23T08:13:18 IST" duration-ms="7134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.automation.TC_001_AddToCart@3b0090a4]" started-at="2024-11-23T08:13:18 IST" name="closeBrowser" finished-at="2024-11-23T08:13:27 IST" duration-ms="9119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automation.TC_001_AddToCart -->
+    </test> <!-- TC_001_AddToCart_C -->
+  </suite> <!-- gmail -->
+</testng-results>
